@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB87B6461AA81EBB00B2C492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87B6451AA81EBB00B2C492 /* AppDelegate.swift */; };
+		AB87B6481AA81EBB00B2C492 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87B6471AA81EBB00B2C492 /* FirstViewController.swift */; };
+		AB87B64A1AA81EBB00B2C492 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87B6491AA81EBB00B2C492 /* SecondViewController.swift */; };
+		AB87B64D1AA81EBB00B2C492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB87B64B1AA81EBB00B2C492 /* Main.storyboard */; };
+		AB87B64F1AA81EBB00B2C492 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB87B64E1AA81EBB00B2C492 /* Images.xcassets */; };
+		AB87B6521AA81EBB00B2C492 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB87B6501AA81EBB00B2C492 /* LaunchScreen.xib */; };
+		AB87B65E1AA81EBB00B2C492 /* GreekTalk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB87B65D1AA81EBB00B2C492 /* GreekTalk2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB87B6581AA81EBB00B2C492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB87B6381AA81EBB00B2C492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB87B63F1AA81EBB00B2C492;
+			remoteInfo = GreekTalk2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB87B6401AA81EBB00B2C492 /* GreekTalk2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreekTalk2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB87B6441AA81EBB00B2C492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB87B6451AA81EBB00B2C492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB87B6471AA81EBB00B2C492 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AB87B6491AA81EBB00B2C492 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AB87B64C1AA81EBB00B2C492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB87B64E1AA81EBB00B2C492 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB87B6511AA81EBB00B2C492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB87B6571AA81EBB00B2C492 /* GreekTalk2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreekTalk2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB87B65C1AA81EBB00B2C492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB87B65D1AA81EBB00B2C492 /* GreekTalk2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekTalk2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB87B63D1AA81EBB00B2C492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB87B6541AA81EBB00B2C492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB87B6371AA81EBB00B2C492 = {
+			isa = PBXGroup;
+			children = (
+				AB87B6421AA81EBB00B2C492 /* GreekTalk2 */,
+				AB87B65A1AA81EBB00B2C492 /* GreekTalk2Tests */,
+				AB87B6411AA81EBB00B2C492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB87B6411AA81EBB00B2C492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB87B6401AA81EBB00B2C492 /* GreekTalk2.app */,
+				AB87B6571AA81EBB00B2C492 /* GreekTalk2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB87B6421AA81EBB00B2C492 /* GreekTalk2 */ = {
+			isa = PBXGroup;
+			children = (
+				AB87B6451AA81EBB00B2C492 /* AppDelegate.swift */,
+				AB87B6471AA81EBB00B2C492 /* FirstViewController.swift */,
+				AB87B6491AA81EBB00B2C492 /* SecondViewController.swift */,
+				AB87B64B1AA81EBB00B2C492 /* Main.storyboard */,
+				AB87B64E1AA81EBB00B2C492 /* Images.xcassets */,
+				AB87B6501AA81EBB00B2C492 /* LaunchScreen.xib */,
+				AB87B6431AA81EBB00B2C492 /* Supporting Files */,
+			);
+			path = GreekTalk2;
+			sourceTree = "<group>";
+		};
+		AB87B6431AA81EBB00B2C492 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB87B6441AA81EBB00B2C492 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB87B65A1AA81EBB00B2C492 /* GreekTalk2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB87B65D1AA81EBB00B2C492 /* GreekTalk2Tests.swift */,
+				AB87B65B1AA81EBB00B2C492 /* Supporting Files */,
+			);
+			path = GreekTalk2Tests;
+			sourceTree = "<group>";
+		};
+		AB87B65B1AA81EBB00B2C492 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB87B65C1AA81EBB00B2C492 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB87B63F1AA81EBB00B2C492 /* GreekTalk2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB87B6611AA81EBB00B2C492 /* Build configuration list for PBXNativeTarget "GreekTalk2" */;
+			buildPhases = (
+				AB87B63C1AA81EBB00B2C492 /* Sources */,
+				AB87B63D1AA81EBB00B2C492 /* Frameworks */,
+				AB87B63E1AA81EBB00B2C492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreekTalk2;
+			productName = GreekTalk2;
+			productReference = AB87B6401AA81EBB00B2C492 /* GreekTalk2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB87B6561AA81EBB00B2C492 /* GreekTalk2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB87B6641AA81EBB00B2C492 /* Build configuration list for PBXNativeTarget "GreekTalk2Tests" */;
+			buildPhases = (
+				AB87B6531AA81EBB00B2C492 /* Sources */,
+				AB87B6541AA81EBB00B2C492 /* Frameworks */,
+				AB87B6551AA81EBB00B2C492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB87B6591AA81EBB00B2C492 /* PBXTargetDependency */,
+			);
+			name = GreekTalk2Tests;
+			productName = GreekTalk2Tests;
+			productReference = AB87B6571AA81EBB00B2C492 /* GreekTalk2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB87B6381AA81EBB00B2C492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Cray Jaeger";
+				TargetAttributes = {
+					AB87B63F1AA81EBB00B2C492 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AB87B6561AA81EBB00B2C492 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AB87B63F1AA81EBB00B2C492;
+					};
+				};
+			};
+			buildConfigurationList = AB87B63B1AA81EBB00B2C492 /* Build configuration list for PBXProject "GreekTalk2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB87B6371AA81EBB00B2C492;
+			productRefGroup = AB87B6411AA81EBB00B2C492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB87B63F1AA81EBB00B2C492 /* GreekTalk2 */,
+				AB87B6561AA81EBB00B2C492 /* GreekTalk2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB87B63E1AA81EBB00B2C492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB87B64D1AA81EBB00B2C492 /* Main.storyboard in Resources */,
+				AB87B6521AA81EBB00B2C492 /* LaunchScreen.xib in Resources */,
+				AB87B64F1AA81EBB00B2C492 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB87B6551AA81EBB00B2C492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB87B63C1AA81EBB00B2C492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB87B64A1AA81EBB00B2C492 /* SecondViewController.swift in Sources */,
+				AB87B6461AA81EBB00B2C492 /* AppDelegate.swift in Sources */,
+				AB87B6481AA81EBB00B2C492 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB87B6531AA81EBB00B2C492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB87B65E1AA81EBB00B2C492 /* GreekTalk2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB87B6591AA81EBB00B2C492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB87B63F1AA81EBB00B2C492 /* GreekTalk2 */;
+			targetProxy = AB87B6581AA81EBB00B2C492 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB87B64B1AA81EBB00B2C492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB87B64C1AA81EBB00B2C492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB87B6501AA81EBB00B2C492 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB87B6511AA81EBB00B2C492 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB87B65F1AA81EBB00B2C492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB87B6601AA81EBB00B2C492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB87B6621AA81EBB00B2C492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GreekTalk2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB87B6631AA81EBB00B2C492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GreekTalk2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB87B6651AA81EBB00B2C492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GreekTalk2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreekTalk2.app/GreekTalk2";
+			};
+			name = Debug;
+		};
+		AB87B6661AA81EBB00B2C492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GreekTalk2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreekTalk2.app/GreekTalk2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB87B63B1AA81EBB00B2C492 /* Build configuration list for PBXProject "GreekTalk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB87B65F1AA81EBB00B2C492 /* Debug */,
+				AB87B6601AA81EBB00B2C492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB87B6611AA81EBB00B2C492 /* Build configuration list for PBXNativeTarget "GreekTalk2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB87B6621AA81EBB00B2C492 /* Debug */,
+				AB87B6631AA81EBB00B2C492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB87B6641AA81EBB00B2C492 /* Build configuration list for PBXNativeTarget "GreekTalk2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB87B6651AA81EBB00B2C492 /* Debug */,
+				AB87B6661AA81EBB00B2C492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB87B6381AA81EBB00B2C492 /* Project object */;
+}
